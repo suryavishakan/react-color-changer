@@ -1,3 +1,4 @@
+// color names package
 import colorNames from "colornames";
 
 const Input = ({

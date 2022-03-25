@@ -1,8 +1,12 @@
+/* Global styles reset */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+/* default styles */
 
 body {
   min-height: 100vh;
@@ -13,6 +17,8 @@ body {
   color: whitesmoke;
 }
 
+/* app component */
+
 .App {
   min-height: 100vh;
   display: flex;
@@ -20,6 +26,8 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+/* square component */
 
 .square {
   width: 400px;
@@ -35,6 +43,8 @@ body {
   text-align: center;
   font-size: 1.3rem;
 }
+
+/* input component */
 
 form {
   width: 400px;

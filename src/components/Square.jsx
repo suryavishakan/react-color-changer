@@ -15,10 +15,10 @@ const Square = ({ colorValue, hexValue, isDarkText }) => {
   );
 };
 
+// type checking
 Square.defaultProps = {
   colorValue: "Empty color value",
 };
-
 Square.propTypes = {
   colorValue: PropTypes.string.isRequired,
 };
